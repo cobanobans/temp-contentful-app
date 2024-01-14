@@ -27,6 +27,7 @@ const Projects = () => {
               key={id}
             >
               <img src={img} alt={title} className='img' />
+              <h5>{title}</h5>
             </a>
           )
         })}
